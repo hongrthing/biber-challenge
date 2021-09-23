@@ -29,6 +29,7 @@ void solve(int x, int y, int k){
         solve(x+k/2,y+k/2,k/2);
         solve(x+k/2,y,k/2);
         printf(")");
+        return;
       }
     }
   }
