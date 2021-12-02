@@ -13,6 +13,6 @@ int main()
 			if(open < 0) error++;
 		}
 	}
-	if(error < 0 || open != 0)printf("wrong rule");
+	if(error > 0 || open != 0)printf("wrong rule");
 	else printf("right rule");
 }
