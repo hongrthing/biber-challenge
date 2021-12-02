@@ -18,7 +18,7 @@ int count = 0;
 void print_card()
 {
 	int i;
-	for(i = 0; i<=32; i++){
+	for(i = 0; i<=31; i++){
 		printf("%d", card[i]);}
 	printf("\n");
 }
@@ -45,7 +45,7 @@ void flip()
 		}
 		print_card();
 	}
-	for(j=0; j<32; j++)
+	for(j=0; j<=31; j++)
 		if(card[j] ==1)
 			count += 1;
 }
